@@ -19,7 +19,7 @@ class _MainState extends State<Main>{
   Widget build(BuildContext context) {
     final TextStyle headlineSmall = Theme.of(context).textTheme.headlineSmall!;
     final ButtonStyle buttonStyle = ElevatedButton.styleFrom(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.white,
       visualDensity: VisualDensity.comfortable,
       padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 16),
       textStyle: headlineSmall,
@@ -112,7 +112,7 @@ class _MainState extends State<Main>{
             mainAxisAlignment: MainAxisAlignment.end,
             children: [
               FloatingActionButton(
-                backgroundColor: Colors.black,
+                backgroundColor: Colors.white,
                 onPressed: null,
                 child: Icon(Icons.add),
 
@@ -121,7 +121,7 @@ class _MainState extends State<Main>{
 
               FloatingActionButton.extended(
                 onPressed: null,
-                backgroundColor: Colors.black,
+                backgroundColor: Colors.white,
                 label: Text('Add'),
                 icon: Icon(Icons.add),
               ),
